@@ -1,0 +1,40 @@
+table, th, td  {
+    background-color:rgb(210, 230, 238);
+    border-spacing: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(199, 32, 32);
+    /*border-collapse: collapse;*/
+    border-radius: 15px;
+    border-style: solid;
+}
+
+table, td {
+    border-color: green;
+}
+table, th {
+    border-color: red;
+    border-style: dotted
+}
+
+body {
+    background-color:rgb(216, 230, 229);
+}
+
+h1 {
+    color:rgb(89, 85, 153);
+    text-align: center;
+    font-size: 40px;
+}
+
+h3  {
+    visibility:hidden;
+}
+
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:blue;
+
+}
+

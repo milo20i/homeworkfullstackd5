@@ -1,0 +1,348 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'functional-javascript-workshop'
+1 verbose cli ]
+2 info using npm@6.13.7
+3 info using node@v13.11.0
+4 verbose npm-session 1ba8676a060944b1
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/functional-javascript-workshop 1152ms
+8 http fetch GET 200 https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-1.0.6.tgz 1350ms
+9 silly pacote tag manifest for functional-javascript-workshop@latest fetched in 2542ms
+10 timing stage:loadCurrentTree Completed in 2621ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule functional-javascript-workshop@1.0.6 checking installable status
+18 http fetch GET 200 https://registry.npmjs.org/deep-eql 81ms
+19 http fetch GET 200 https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz 76ms
+20 silly pacote range manifest for deep-eql@^0.1.3 fetched in 172ms
+21 silly resolveWithNewModule deep-eql@0.1.3 checking installable status
+22 http fetch GET 200 https://registry.npmjs.org/workshopper-exercise 968ms
+23 http fetch GET 200 https://registry.npmjs.org/workshopper-exercise/-/workshopper-exercise-2.7.0.tgz 87ms
+24 silly pacote range manifest for workshopper-exercise@^2.4.0 fetched in 1067ms
+25 silly resolveWithNewModule workshopper-exercise@2.7.0 checking installable status
+26 http fetch GET 200 https://registry.npmjs.org/lorem-ipsum 1082ms
+27 http fetch GET 200 https://registry.npmjs.org/workshopper 1112ms
+28 http fetch GET 200 https://registry.npmjs.org/lorem-ipsum/-/lorem-ipsum-1.0.6.tgz 59ms
+29 silly pacote range manifest for lorem-ipsum@^1.0.1 fetched in 1149ms
+30 silly resolveWithNewModule lorem-ipsum@1.0.6 checking installable status
+31 http fetch GET 200 https://registry.npmjs.org/workshopper/-/workshopper-2.7.0.tgz 999ms
+32 silly pacote range manifest for workshopper@^2.6.0 fetched in 2119ms
+33 silly resolveWithNewModule workshopper@2.7.0 checking installable status
+34 http fetch GET 200 https://registry.npmjs.org/type-detect 84ms
+35 http fetch GET 200 https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz 56ms
+36 silly pacote version manifest for type-detect@0.1.1 fetched in 148ms
+37 silly resolveWithNewModule type-detect@0.1.1 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/minimist 114ms (from cache)
+39 silly pacote range manifest for minimist@~1.2.0 fetched in 117ms
+40 silly resolveWithNewModule minimist@1.2.5 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/optimist 70ms
+42 http fetch GET 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz 76ms
+43 silly pacote range manifest for optimist@~0.6.1 fetched in 152ms
+44 silly resolveWithNewModule optimist@0.6.1 checking installable status
+45 http fetch GET 304 https://registry.npmjs.org/chalk 180ms (from cache)
+46 http fetch GET 304 https://registry.npmjs.org/mkdirp 184ms (from cache)
+47 http fetch GET 304 https://registry.npmjs.org/xtend 198ms (from cache)
+48 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz 65ms
+49 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz 63ms
+50 silly pacote range manifest for chalk@~0.4.0 fetched in 264ms
+51 silly resolveWithNewModule chalk@0.4.0 checking installable status
+52 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-3.0.0.tgz 59ms
+53 silly pacote range manifest for mkdirp@~0.3.5 fetched in 265ms
+54 silly resolveWithNewModule mkdirp@0.3.5 checking installable status
+55 silly pacote range manifest for xtend@~3.0.0 fetched in 266ms
+56 silly resolveWithNewModule xtend@3.0.0 checking installable status
+57 http fetch GET 200 https://registry.npmjs.org/terminal-menu 814ms
+58 http fetch GET 200 https://registry.npmjs.org/map-async 830ms
+59 http fetch GET 200 https://registry.npmjs.org/visualwidth 847ms
+60 http fetch GET 200 https://registry.npmjs.org/map-async/-/map-async-0.1.1.tgz 59ms
+61 http fetch GET 304 https://registry.npmjs.org/msee 893ms (from cache)
+62 silly pacote range manifest for map-async@~0.1.1 fetched in 905ms
+63 silly resolveWithNewModule map-async@0.1.1 checking installable status
+64 http fetch GET 304 https://registry.npmjs.org/i18n-core 918ms (from cache)
+65 http fetch GET 304 https://registry.npmjs.org/colors-tmpl 925ms (from cache)
+66 http fetch GET 200 https://registry.npmjs.org/i18n-core/-/i18n-core-1.3.3.tgz 68ms
+67 silly pacote range manifest for i18n-core@^1.3.2 fetched in 992ms
+68 silly resolveWithNewModule i18n-core@1.3.3 checking installable status
+69 http fetch GET 200 https://registry.npmjs.org/colors-tmpl/-/colors-tmpl-0.1.1.tgz 267ms
+70 silly pacote range manifest for colors-tmpl@~0.1.0 fetched in 1199ms
+71 warn deprecated colors-tmpl@0.1.1: no longer maintained
+72 silly resolveWithNewModule colors-tmpl@0.1.1 checking installable status
+73 http fetch GET 200 https://registry.npmjs.org/terminal-menu/-/terminal-menu-2.1.1.tgz 937ms
+74 http fetch GET 200 https://registry.npmjs.org/msee/-/msee-0.1.2.tgz 859ms
+75 silly pacote range manifest for msee@~0.1.1 fetched in 1759ms
+76 silly resolveWithNewModule msee@0.1.2 checking installable status
+77 silly pacote range manifest for terminal-menu@^2.1.1 fetched in 1759ms
+78 silly resolveWithNewModule terminal-menu@2.1.1 checking installable status
+79 http fetch GET 200 https://registry.npmjs.org/visualwidth/-/visualwidth-0.0.1.tgz 984ms
+80 silly pacote range manifest for visualwidth@~0.0.1 fetched in 1837ms
+81 silly resolveWithNewModule visualwidth@0.0.1 checking installable status
+82 http fetch GET 200 https://registry.npmjs.org/has-color 57ms
+83 http fetch GET 304 https://registry.npmjs.org/strip-ansi 73ms (from cache)
+84 http fetch GET 304 https://registry.npmjs.org/ansi-styles 74ms (from cache)
+85 http fetch GET 200 https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz 54ms
+86 silly pacote range manifest for has-color@~0.1.0 fetched in 119ms
+87 silly resolveWithNewModule has-color@0.1.7 checking installable status
+88 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz 51ms
+89 silly pacote range manifest for ansi-styles@~1.0.0 fetched in 133ms
+90 silly resolveWithNewModule ansi-styles@1.0.0 checking installable status
+91 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz 63ms
+92 silly pacote range manifest for strip-ansi@~0.1.0 fetched in 142ms
+93 silly resolveWithNewModule strip-ansi@0.1.1 checking installable status
+94 http fetch GET 304 https://registry.npmjs.org/colors 60ms (from cache)
+95 http fetch GET 200 https://registry.npmjs.org/colors/-/colors-0.6.2.tgz 62ms
+96 silly pacote range manifest for colors@~0.6.2 fetched in 127ms
+97 silly resolveWithNewModule colors@0.6.2 checking installable status
+98 http fetch GET 200 https://registry.npmjs.org/sprintf 852ms
+99 http fetch GET 200 https://registry.npmjs.org/sprintf/-/sprintf-0.1.5.tgz 62ms
+100 silly pacote range manifest for sprintf@^0.1.4 fetched in 919ms
+101 warn deprecated sprintf@0.1.5: The sprintf package is deprecated in favor of sprintf-js.
+102 silly resolveWithNewModule sprintf@0.1.5 checking installable status
+103 http fetch GET 200 https://registry.npmjs.org/mustache 1017ms
+104 http fetch GET 200 https://registry.npmjs.org/mustache/-/mustache-0.8.2.tgz 865ms
+105 silly pacote range manifest for mustache@^0.8.2 fetched in 1890ms
+106 silly resolveWithNewModule mustache@0.8.2 checking installable status
+107 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-2.1.2.tgz 88ms
+108 http fetch GET 304 https://registry.npmjs.org/nopt 96ms (from cache)
+109 http fetch GET 304 https://registry.npmjs.org/marked 97ms (from cache)
+110 http fetch GET 304 https://registry.npmjs.org/cardinal 101ms (from cache)
+111 silly pacote range manifest for xtend@~2.1.1 fetched in 106ms
+112 silly resolveWithNewModule xtend@2.1.2 checking installable status
+113 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-2.1.2.tgz 63ms
+114 silly pacote range manifest for nopt@~2.1.1 fetched in 169ms
+115 silly resolveWithNewModule nopt@2.1.2 checking installable status
+116 http fetch GET 200 https://registry.npmjs.org/marked/-/marked-0.3.19.tgz 81ms
+117 http fetch GET 200 https://registry.npmjs.org/cardinal/-/cardinal-0.5.0.tgz 82ms
+118 silly pacote range manifest for marked@~0.3.0 fetched in 188ms
+119 silly resolveWithNewModule marked@0.3.19 checking installable status
+120 silly pacote range manifest for cardinal@^0.5.0 fetched in 193ms
+121 silly resolveWithNewModule cardinal@0.5.0 checking installable status
+122 http fetch GET 304 https://registry.npmjs.org/ansicolors 62ms (from cache)
+123 silly pacote range manifest for ansicolors@~0.2.1 fetched in 64ms
+124 silly resolveWithNewModule ansicolors@0.2.1 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/redeyed 66ms (from cache)
+126 http fetch GET 200 https://registry.npmjs.org/redeyed/-/redeyed-0.5.0.tgz 917ms
+127 silly pacote range manifest for redeyed@~0.5.0 fetched in 990ms
+128 silly resolveWithNewModule redeyed@0.5.0 checking installable status
+129 http fetch GET 200 https://registry.npmjs.org/esprima-fb 62ms
+130 http fetch GET 200 https://registry.npmjs.org/esprima-fb/-/esprima-fb-12001.1.0-dev-harmony-fb.tgz 1230ms
+131 silly pacote range manifest for esprima-fb@~12001.1.0-dev-harmony-fb fetched in 1301ms
+132 silly resolveWithNewModule esprima-fb@12001.1.0-dev-harmony-fb checking installable status
+133 http fetch GET 304 https://registry.npmjs.org/abbrev 88ms (from cache)
+134 silly pacote range manifest for abbrev@1 fetched in 90ms
+135 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+136 http fetch GET 200 https://registry.npmjs.org/object-keys 60ms
+137 http fetch GET 200 https://registry.npmjs.org/object-keys/-/object-keys-0.4.0.tgz 64ms
+138 silly pacote range manifest for object-keys@~0.4.0 fetched in 130ms
+139 silly resolveWithNewModule object-keys@0.4.0 checking installable status
+140 http fetch GET 200 https://registry.npmjs.org/wordwrap 62ms
+141 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz 63ms
+142 silly pacote range manifest for minimist@~0.0.1 fetched in 69ms
+143 silly resolveWithNewModule minimist@0.0.10 checking installable status
+144 http fetch GET 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz 55ms
+145 silly pacote range manifest for wordwrap@~0.0.2 fetched in 123ms
+146 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+147 http fetch GET 200 https://registry.npmjs.org/charm 69ms
+148 http fetch GET 304 https://registry.npmjs.org/through2 76ms (from cache)
+149 silly pacote range manifest for through2@^0.6.3 fetched in 81ms
+150 silly resolveWithNewModule through2@0.6.5 checking installable status
+151 http fetch GET 304 https://registry.npmjs.org/duplexer2 86ms (from cache)
+152 silly pacote version manifest for duplexer2@0.0.2 fetched in 90ms
+153 silly resolveWithNewModule duplexer2@0.0.2 checking installable status
+154 http fetch GET 304 https://registry.npmjs.org/inherits 95ms (from cache)
+155 silly pacote range manifest for inherits@~2.0.0 fetched in 96ms
+156 silly resolveWithNewModule inherits@2.0.4 checking installable status
+157 http fetch GET 200 https://registry.npmjs.org/charm/-/charm-0.1.2.tgz 55ms
+158 silly pacote range manifest for charm@~0.1.2 fetched in 131ms
+159 silly resolveWithNewModule charm@0.1.2 checking installable status
+160 http fetch GET 304 https://registry.npmjs.org/resumer 795ms (from cache)
+161 silly pacote range manifest for resumer@~0.0.0 fetched in 797ms
+162 silly resolveWithNewModule resumer@0.0.0 checking installable status
+163 http fetch GET 304 https://registry.npmjs.org/readable-stream 57ms (from cache)
+164 silly pacote range manifest for readable-stream@~1.1.9 fetched in 62ms
+165 silly resolveWithNewModule readable-stream@1.1.14 checking installable status
+166 http fetch GET 304 https://registry.npmjs.org/core-util-is 78ms (from cache)
+167 silly pacote range manifest for core-util-is@~1.0.0 fetched in 80ms
+168 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+169 http fetch GET 304 https://registry.npmjs.org/string_decoder 80ms (from cache)
+170 http fetch GET 304 https://registry.npmjs.org/isarray 82ms (from cache)
+171 silly pacote range manifest for string_decoder@~0.10.x fetched in 82ms
+172 silly resolveWithNewModule string_decoder@0.10.31 checking installable status
+173 silly pacote version manifest for isarray@0.0.1 fetched in 84ms
+174 silly resolveWithNewModule isarray@0.0.1 checking installable status
+175 http fetch GET 304 https://registry.npmjs.org/through 64ms (from cache)
+176 silly pacote range manifest for through@~2.3.4 fetched in 67ms
+177 silly resolveWithNewModule through@2.3.8 checking installable status
+178 silly pacote range manifest for readable-stream@>=1.0.33-1 <1.1.0-0 fetched in 6ms
+179 silly resolveWithNewModule readable-stream@1.0.34 checking installable status
+180 silly pacote range manifest for xtend@>=4.0.0 <4.1.0-0 fetched in 7ms
+181 silly resolveWithNewModule xtend@4.0.2 checking installable status
+182 silly pacote range manifest for chalk@^1.1.1 fetched in 9ms
+183 silly resolveWithNewModule chalk@1.1.3 checking installable status
+184 silly pacote range manifest for through2@^2.0.0 fetched in 9ms
+185 silly resolveWithNewModule through2@2.0.5 checking installable status
+186 silly pacote range manifest for xtend@^4.0.1 fetched in 9ms
+187 silly resolveWithNewModule xtend@4.0.2 checking installable status
+188 http fetch GET 304 https://registry.npmjs.org/after 74ms (from cache)
+189 silly pacote range manifest for after@~0.8.1 fetched in 77ms
+190 silly resolveWithNewModule after@0.8.2 checking installable status
+191 http fetch GET 200 https://registry.npmjs.org/i18n-core/-/i18n-core-2.1.1.tgz 922ms
+192 http fetch GET 200 https://registry.npmjs.org/tuple-stream 929ms
+193 http fetch GET 304 https://registry.npmjs.org/split 935ms (from cache)
+194 http fetch GET 304 https://registry.npmjs.org/wcstring 936ms (from cache)
+195 silly pacote range manifest for split@^1.0.0 fetched in 940ms
+196 silly resolveWithNewModule split@1.0.1 checking installable status
+197 silly pacote range manifest for wcstring@^2.1.0 fetched in 939ms
+198 silly resolveWithNewModule wcstring@2.1.1 checking installable status
+199 silly pacote range manifest for i18n-core@^2.1.1 fetched in 942ms
+200 silly resolveWithNewModule i18n-core@2.1.1 checking installable status
+201 http fetch GET 200 https://registry.npmjs.org/tuple-stream/-/tuple-stream-0.0.2.tgz 60ms
+202 silly pacote version manifest for tuple-stream@0.0.2 fetched in 996ms
+203 silly resolveWithNewModule tuple-stream@0.0.2 checking installable status
+204 silly pacote range manifest for ansi-styles@^2.2.1 fetched in 10ms
+205 silly resolveWithNewModule ansi-styles@2.2.1 checking installable status
+206 silly pacote range manifest for strip-ansi@^3.0.0 fetched in 9ms
+207 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+208 http fetch GET 304 https://registry.npmjs.org/supports-color 57ms (from cache)
+209 silly pacote range manifest for supports-color@^2.0.0 fetched in 60ms
+210 silly resolveWithNewModule supports-color@2.0.0 checking installable status
+211 http fetch GET 304 https://registry.npmjs.org/has-ansi 73ms (from cache)
+212 silly pacote range manifest for has-ansi@^2.0.0 fetched in 75ms
+213 silly resolveWithNewModule has-ansi@2.0.0 checking installable status
+214 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 77ms (from cache)
+215 silly pacote range manifest for escape-string-regexp@^1.0.2 fetched in 83ms
+216 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+217 http fetch GET 304 https://registry.npmjs.org/ansi-regex 64ms (from cache)
+218 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 66ms
+219 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+220 silly pacote range manifest for readable-stream@~2.3.6 fetched in 2ms
+221 silly resolveWithNewModule readable-stream@2.3.7 checking installable status
+222 silly pacote range manifest for string_decoder@~1.1.1 fetched in 8ms
+223 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+224 silly pacote range manifest for isarray@~1.0.0 fetched in 9ms
+225 silly resolveWithNewModule isarray@1.0.0 checking installable status
+226 http fetch GET 304 https://registry.npmjs.org/util-deprecate 58ms (from cache)
+227 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 63ms
+228 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+229 http fetch GET 304 https://registry.npmjs.org/process-nextick-args 70ms (from cache)
+230 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 71ms
+231 silly resolveWithNewModule process-nextick-args@2.0.1 checking installable status
+232 http fetch GET 304 https://registry.npmjs.org/safe-buffer 72ms (from cache)
+233 silly pacote range manifest for safe-buffer@~5.1.1 fetched in 74ms
+234 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+235 http fetch GET 304 https://registry.npmjs.org/varsize-string 830ms (from cache)
+236 silly pacote range manifest for varsize-string@^2.2.1 fetched in 832ms
+237 silly resolveWithNewModule varsize-string@2.2.2 checking installable status
+238 http fetch GET 304 https://registry.npmjs.org/wcsize 835ms (from cache)
+239 silly pacote range manifest for wcsize@^1.0.0 fetched in 837ms
+240 silly resolveWithNewModule wcsize@1.0.0 checking installable status
+241 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 12399ms
+242 timing stage:loadIdealTree Completed in 12425ms
+243 silly currentTree lib
+244 silly idealTree lib
+244 silly idealTree └─┬ functional-javascript-workshop@1.0.6
+244 silly idealTree   ├── abbrev@1.1.1
+244 silly idealTree   ├── after@0.8.2
+244 silly idealTree   ├── ansi-regex@2.1.1
+244 silly idealTree   ├── ansi-styles@1.0.0
+244 silly idealTree   ├── ansicolors@0.2.1
+244 silly idealTree   ├── cardinal@0.5.0
+244 silly idealTree   ├── chalk@0.4.0
+244 silly idealTree   ├── charm@0.1.2
+244 silly idealTree   ├── colors-tmpl@0.1.1
+244 silly idealTree   ├── colors@0.6.2
+244 silly idealTree   ├── core-util-is@1.0.2
+244 silly idealTree   ├── deep-eql@0.1.3
+244 silly idealTree   ├── duplexer2@0.0.2
+244 silly idealTree   ├── escape-string-regexp@1.0.5
+244 silly idealTree   ├── esprima-fb@12001.1.0-dev-harmony-fb
+244 silly idealTree   ├── has-ansi@2.0.0
+244 silly idealTree   ├── has-color@0.1.7
+244 silly idealTree   ├── i18n-core@1.3.3
+244 silly idealTree   ├── inherits@2.0.4
+244 silly idealTree   ├── isarray@0.0.1
+244 silly idealTree   ├── lorem-ipsum@1.0.6
+244 silly idealTree   ├── map-async@0.1.1
+244 silly idealTree   ├── marked@0.3.19
+244 silly idealTree   ├── minimist@1.2.5
+244 silly idealTree   ├── mkdirp@0.3.5
+244 silly idealTree   ├─┬ msee@0.1.2
+244 silly idealTree   │ └── xtend@2.1.2
+244 silly idealTree   ├── mustache@0.8.2
+244 silly idealTree   ├── nopt@2.1.2
+244 silly idealTree   ├── object-keys@0.4.0
+244 silly idealTree   ├─┬ optimist@0.6.1
+244 silly idealTree   │ └── minimist@0.0.10
+244 silly idealTree   ├── process-nextick-args@2.0.1
+244 silly idealTree   ├── readable-stream@1.1.14
+244 silly idealTree   ├── redeyed@0.5.0
+244 silly idealTree   ├── resumer@0.0.0
+244 silly idealTree   ├── safe-buffer@5.1.2
+244 silly idealTree   ├── split@1.0.1
+244 silly idealTree   ├── sprintf@0.1.5
+244 silly idealTree   ├── string_decoder@0.10.31
+244 silly idealTree   ├── strip-ansi@0.1.1
+244 silly idealTree   ├── supports-color@2.0.0
+244 silly idealTree   ├── terminal-menu@2.1.1
+244 silly idealTree   ├── through@2.3.8
+244 silly idealTree   ├─┬ through2@0.6.5
+244 silly idealTree   │ ├── readable-stream@1.0.34
+244 silly idealTree   │ └── xtend@4.0.2
+244 silly idealTree   ├── tuple-stream@0.0.2
+244 silly idealTree   ├── type-detect@0.1.1
+244 silly idealTree   ├── util-deprecate@1.0.2
+244 silly idealTree   ├── varsize-string@2.2.2
+244 silly idealTree   ├── visualwidth@0.0.1
+244 silly idealTree   ├── wcsize@1.0.0
+244 silly idealTree   ├── wcstring@2.1.1
+244 silly idealTree   ├── wordwrap@0.0.3
+244 silly idealTree   ├─┬ workshopper-exercise@2.7.0
+244 silly idealTree   │ ├── ansi-styles@2.2.1
+244 silly idealTree   │ ├── chalk@1.1.3
+244 silly idealTree   │ ├── i18n-core@2.1.1
+244 silly idealTree   │ ├── isarray@1.0.0
+244 silly idealTree   │ ├── readable-stream@2.3.7
+244 silly idealTree   │ ├── string_decoder@1.1.1
+244 silly idealTree   │ ├── strip-ansi@3.0.1
+244 silly idealTree   │ ├── through2@2.0.5
+244 silly idealTree   │ └── xtend@4.0.2
+244 silly idealTree   ├── workshopper@2.7.0
+244 silly idealTree   └── xtend@3.0.0
+245 silly install generateActionsToTake
+246 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+247 timing stage:rollbackFailedOptional Completed in 1ms
+248 timing stage:runTopLevelLifecycles Completed in 15060ms
+249 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+250 verbose cwd /Users/danilodematteis
+251 verbose Darwin 17.7.0
+252 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "functional-javascript-workshop"
+253 verbose node v13.11.0
+254 verbose npm  v6.13.7
+255 error code EACCES
+256 error syscall access
+257 error path /usr/local/lib/node_modules
+258 error errno -13
+259 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+259 error  [Error: EACCES: permission denied, access '/usr/local/lib/node_modules'] {
+259 error   stack: "Error: EACCES: permission denied, access '/usr/local/lib/node_modules'",
+259 error   errno: -13,
+259 error   code: 'EACCES',
+259 error   syscall: 'access',
+259 error   path: '/usr/local/lib/node_modules'
+259 error }
+260 error The operation was rejected by your operating system.
+260 error It is likely you do not have the permissions to access this file as the current user
+260 error
+260 error If you believe this might be a permissions issue, please double-check the
+260 error permissions of the file and its containing directories, or try running
+260 error the command again as root/Administrator.
+261 verbose exit [ -13, true ]

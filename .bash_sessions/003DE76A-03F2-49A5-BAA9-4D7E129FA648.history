@@ -1,0 +1,112 @@
+node -v
+npm -v
+npm install -g javascripting 
+/Applications/Utilities/Adobe\ Application\ Manager/DECore/DE6/resources/libraries/ARKCmdFS.dylib ; exit;
+npm install -g javascripting
+npm install -g functional-javascript-workshop
+/Users/danilodematteis/Applications/BeAware.app/Contents/MacOS/BeAware ; exit;
+npm install -g javascripting
+npm install -g javascripting 
+npm install -g javascripting 
+sbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom | while read f; do  sudo rm /usr/local/${f}; done
+sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*
+sbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom | while read f; do  sudo rm /usr/local/${f}; done
+sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*
+lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom | while read f; do  sudo rm /usr/local/${f}; sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*; 
+lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom | while read f; do  sudo rm /usr/local/${f}; done
+sudo rm -rf /usr/local/lib/node /usr/local/lib/node_modules /var/db/receipts/org.nodejs.*
+npm install -g javascripting
+ls -l
+sudo chown danilodematteirs file. txt
+npm configget prefix
+yes
+terminale install -g javascripting
+sudo chown -R danilodematteis /usr/local/
+node -v
+npm -v
+npm install -g javascripting 
+npm config get prefix
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+npm install -g javascripting
+npm install -g javascripting
+javascripting
+javascripting
+javascripting
+javascripting
+javascripting
+javascripting
+cd Desktop
+mkdir danilo
+cd danilo
+atom
+atom
+javascripting
+mkdir javascripting
+md danilo
+mkdir danilo
+md danilo
+cd desktop
+mkdir danilo
+atom
+cd danilo
+atom
+javascripting
+atom
+su -
+su -
+su -
+  
+javascript
+javascripting
+javascripting verify string.js
+javascripting verify strings.js
+cd desktop
+javascripting verify strings.js
+cd 
+javascripting
+javascripting verify rounding-numbers.js
+javascripting help
+javascripting
+javascripting verify rounding-numbers.js
+md desktop
+md Desktop
+mkdir desktop
+md Jvascripting
+javascripting
+javascripting verify rounding-numbers.js
+md desktop
+md javascripting
+md desktop
+mkdir desktop
+md Desktop
+su -
+javascripting
+atom
+javascripting
+javascripting verify number-to-string.js
+md project
+md desktop
+mc desktop
+cd desktop
+javascripting verify roundinh-numbers.js
+cd javascripting
+javascripting verify rounding-numbers.js
+javscripting verify number-to-string.js
+cd javascripting
+javascripting verify number-to-string.js
+javascripting
+javascripting verify rounding-numbers.js
+javascripting
+python
+python
+idle
+sudo spctl --master-disable
+sudo spctl --master-disable
+$ apt search build-essential
+build-essential - Informational list of build-essential packages
+$ sudo apt install build-essential
+$ apt search build-essential
+build-essential - Informational list of build-essential packages
+$ sudo apt install build-essential
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

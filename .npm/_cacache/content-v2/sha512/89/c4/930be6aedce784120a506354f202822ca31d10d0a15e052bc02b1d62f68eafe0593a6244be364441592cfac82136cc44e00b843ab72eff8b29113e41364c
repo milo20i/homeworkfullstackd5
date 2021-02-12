@@ -1,0 +1,1 @@
+{"name":"wcsize","dist-tags":{"latest":"1.0.0"},"versions":{"1.0.0":{"name":"wcsize","version":"1.0.0","devDependencies":{"standard":"^5.3.1","tape":"^4.2.2"},"directories":{"test":"test"},"dist":{"shasum":"a8a2e15e6a8a74791dba580f69a57d27e850ea1e","tarball":"https://registry.npmjs.org/wcsize/-/wcsize-1.0.0.tgz"}}},"modified":"2015-10-31T18:35:51.669Z"}
