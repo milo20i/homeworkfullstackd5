@@ -23,6 +23,9 @@ body {
     ),
     url(./QueenBackground.jpeg);
 }
+.my-2 {
+  font-size: 60px;
+}
 
 .fa-ellipsis-h {
   color: white;
